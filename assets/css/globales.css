@@ -1,8 +1,18 @@
 a{
     text-decoration: none;
     color: white;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 li{
     list-style: none;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+p{
+    font-family: 'Montagu Slab', serif;
+}
+
+h3{
+    font-family: 'Montagu Slab', serif;
 }

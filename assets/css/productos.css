@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(241, 148, 221, 0.2);
+}
+
+.contenedor_nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(241, 148, 221, 0.5);
+    
+}
+
+.contenedor_nav img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.contenedor_nav nav ul{
+    display: flex;
+}
+
+.contenedor_nav nav ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.menu-container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-container ul li{
+    margin-left: 10px;
+}
+
+.menu-container ul li button{
+    background-color: transparent;
+    color: rgb(161, 161, 161);
+    border: none;
+    font-size: 20px;
+    font-family: 'Montagu Slab', serif;
+    cursor: pointer;
+}
+.seccion3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: opacity .5s;
+}
+
+.seccion3 button{
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: violet;
+    border-radius: 10px;
+    border: solid 1px black;
+    height: 50px;
+}
+
+.seccion3 button:hover{
+    background-color: rgb(233, 128, 233, .8);
+}
+
+.productos1{
+    height: 250px;
+    width: 200px;
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+.productos1 img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.seccion4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: opacity .5s;
+}
+
+.seccion4 button{
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: violet;
+    border-radius: 10px;
+    border: solid 1px black;
+    height: 50px;
+}
+
+.seccion4 button:hover{
+    background-color: rgb(233, 128, 233, .8);
+}
+
+.productos2{
+    height: 250px;
+    width: 200px;
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+.productos2 img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(241, 148, 221, 0.5);
+    margin-top: 30px;
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}

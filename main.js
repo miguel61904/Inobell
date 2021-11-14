@@ -1,30 +1,23 @@
-let contenedor = document.querySelector(".flex-container");
-let contador = 0;
-
-function productos (img,nombre, precio, descripcion){
-    contador += 1;
-    img= "<img src='./assets/img/producto1.jpg'>";
-    nombre = `<h2>${nombre}</h2>`;
-    precio = `<p><b>${precio}</b></p>`;
-    descripcion = `<p>${descripcion}</p>`
-    return[img,nombre,modelo, precio];
+let todos = document.getElementById("todos");
+let capilares = document.getElementById("btn-capilares");
+let corporales = document.getElementById("btn-corporales");
+let seccion4 = document.getElementById("seccion4");
+let seccion3 = document.getElementById("seccion3");
+todos.onclick = allfiles
+capilares.onclick = filtro1
+corporales.onclick = filtro2
+function filtro1(){
+    seccion4.style.display='none';
+    seccion3.style.display='flex';
 }
 
-const changeHidden = (number)=>{
-    document.querySelector("sell_data").value = number;
+function filtro2(){
+    seccion3.style.display='none';
+    seccion4.style.display='flex';
 }
 
-let documentFragment = document.createDocumentFragment();
-
-for (let i = 0; i< 6; i++){
-    let ramdom = Math.round(Math.random()*10 + 30);
-    let producto = llaves('Crema Lisadora',`Crema Lisadora`, `precio ${ramdom} $`);
-    let div = document.createElement("DIV");
-    div.addEventListener("click",() => {changeHidden(ramdom2)});
-    div.tabIndex = i;
-    div.classList.add(`item`,"flex-item");
-    div.innerHTML =  producto[0] + producto[1] + producto[2] + producto[3];
-    documentFragment.appendChild(div);
+function allfiles(){
+    
+    seccion4.style.display='flex';
+    seccion3.style.display='flex';
 }
-
-contenedor.appendChild(documentFragment);

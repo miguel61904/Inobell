@@ -25,6 +25,7 @@ body{
 
 .contenedor_nav nav ul{
     display: flex;
+    margin-right: 20px;
 }
 
 .contenedor_nav nav ul li{
@@ -44,16 +45,26 @@ body{
 }
 .menu-container ul li{
     margin-left: 10px;
+    border-radius: 5px;
 }
 
 .menu-container ul li button{
     background-color: transparent;
-    color: rgb(161, 161, 161);
+    color: rgb(245, 111, 245);
     border: none;
     font-size: 20px;
     font-family: 'Montagu Slab', serif;
     cursor: pointer;
 }
+
+.menu-container .active{
+    background-color: rgba(241, 148, 221, 0.3);
+}
+
+.menu-container ul li:hover{
+    background-color: rgba(241, 148, 221, 0.2);
+}
+
 .seccion3{
     display: flex;
     justify-content: center;
@@ -91,6 +102,7 @@ body{
     width: 150px;
     object-fit: cover;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 .seccion4{
@@ -130,6 +142,7 @@ body{
     width: 150px;
     object-fit: cover;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 footer{

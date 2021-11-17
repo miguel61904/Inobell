@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(241, 148, 221, 0.2);
+}
+
+.contenedor_nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(241, 148, 221, 0.5);
+    
+}
+
+.contenedor_nav img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.contenedor_nav nav ul{
+    display: flex;
+    margin-right: 10px;
+}
+
+.contenedor_nav nav ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.contenedor_nosotros{
+    width: 100%;
+    display: flex;
+}
+
+.nosotros{
+    height: 250px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.nosotros p{
+    margin-top: 20px;
+}
+
+.contenedor_mision{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.mision{
+    height: 250px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.mision p{
+    margin-top: 20px; 
+}
+
+.contenedor_vision{
+    width: 100%;
+    display: flex;
+}
+
+.vision{
+    height: 250px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.vision p{
+    margin-top: 20px; 
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(241, 148, 221, 0.5);
+}
+
+.info a:hover{
+    color: violet;
+}
+.redes img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}

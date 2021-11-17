@@ -109,11 +109,12 @@ body{
 }
 
 .seccion2 button{
-   background-color: rgba(241, 148, 221, 0.2);
+   background-color: transparent;
    border: none;
    color: white;
    font-size: 20px;
-   border-radius: 15px;
+   border-radius: 5px;
+   cursor: pointer;
 }
 
 .lista_ventas ul{
@@ -153,6 +154,7 @@ body{
     height: 150px;
     width: 150px;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 .seccion3 button{
@@ -192,6 +194,7 @@ body{
     height: 150px;
     width: 150px;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 .seccion4 button{
@@ -229,7 +232,9 @@ body{
     background-color: transparent;
     border: none;
     color: violet;
+    cursor: pointer;
 }
+
 
 .info2{
     width: 100%;
@@ -242,6 +247,7 @@ body{
     background-color: transparent;
     border: none;
     color: violet;
+    cursor: pointer;
 }
 
 iframe{
